@@ -1,0 +1,38 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "rangoli-codec"
+version = "0.1.0"
+description = "A 4-fold kaleidoscope Rangoli geometric encoder and computer-vision decoder"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [
+    { name = "Your Name", email = "you@example.com" }
+]
+keywords = ["rangoli", "kolam", "steganography", "computer-vision", "bezier", "encoding"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Multimedia :: Graphics",
+    "Topic :: Scientific/Engineering :: Image Recognition",
+]
+dependencies = [
+    "numpy>=1.20.0",
+    "opencv-python>=4.5.0",
+    "matplotlib>=3.5.0"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/yourusername/rangoli-codec"
+"Repository" = "https://github.com/yourusername/rangoli-codec"
+"Bug Tracker" = "https://github.com/yourusername/rangoli-codec/issues"
